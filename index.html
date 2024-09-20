@@ -31,6 +31,7 @@
       background: url('Screenshot\ 2024-09-20\ at\ 1.05.01\ AM.png') no-repeat center center/cover;
       color: white;
       text-align: center;
+      padding: 1rem;
     }
     .cta-button {
       background-color: #0070f3;
@@ -113,6 +114,19 @@
     }
     .footer-links a:hover {
       text-decoration: underline;
+    }
+    /* Media Queries */
+    @media (max-width: 768px) {
+      .hero {
+        height: 50vh;
+        background-size: cover;
+      }
+    }
+    @media (max-width: 480px) {
+      .hero {
+        height: 30vh;
+        background-size: cover;
+      }
     }
   </style>
 </head>
